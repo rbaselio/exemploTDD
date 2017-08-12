@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.teste;
+package br.com.rbaselio.leilao.teste;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.junit.Test;
 
-import br.com.caelum.leilao.dominio.Lance;
-import br.com.caelum.leilao.dominio.Usuario;
-import br.com.caelum.leilao.servico.FiltroDeLances;
+import br.com.rbaselio.leilao.dominio.Lance;
+import br.com.rbaselio.leilao.dominio.Usuario;
+import br.com.rbaselio.leilao.servico.FiltroDeLances;
 
 public class FiltroDeLancesTest {
 

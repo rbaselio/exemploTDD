@@ -1,12 +1,12 @@
-package br.com.caelum.leilao.servico;
+package br.com.rbaselio.leilao.servico;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import br.com.caelum.leilao.dominio.Lance;
-import br.com.caelum.leilao.dominio.Leilao;
+import br.com.rbaselio.leilao.dominio.Lance;
+import br.com.rbaselio.leilao.dominio.Leilao;
 
 public class Avaliador {
 

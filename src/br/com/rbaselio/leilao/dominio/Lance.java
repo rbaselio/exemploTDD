@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.dominio;
+package br.com.rbaselio.leilao.dominio;
 
 public class Lance {
 

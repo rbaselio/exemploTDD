@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.teste;
+package br.com.rbaselio.leilao.teste;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,10 +7,10 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.caelum.leilao.dominio.Leilao;
-import br.com.caelum.leilao.dominio.Usuario;
-import br.com.caelum.leilao.dominio.Lance;
-import br.com.caelum.leilao.servico.*;
+import br.com.rbaselio.leilao.dominio.Lance;
+import br.com.rbaselio.leilao.dominio.Leilao;
+import br.com.rbaselio.leilao.dominio.Usuario;
+import br.com.rbaselio.leilao.servico.*;
 
 public class TesteDoAvaliador {
 	@Test
