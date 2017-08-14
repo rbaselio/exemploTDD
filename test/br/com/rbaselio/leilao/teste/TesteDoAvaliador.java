@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import org.junit.Assert;
+
 import org.junit.Test;
 
 import br.com.rbaselio.leilao.dominio.Lance;
@@ -16,7 +16,7 @@ public class TesteDoAvaliador {
 	@Test
 	public void deveEntenderLancesEmOrdemCrescente() {
         Usuario joao = new Usuario("Joao");
-        Usuario jose = new Usuario("José");
+        Usuario jose = new Usuario("Jose");
         Usuario maria = new Usuario("Maria");
 
         Leilao leilao = new Leilao("Playstation 3 Novo");
@@ -91,7 +91,7 @@ public class TesteDoAvaliador {
 	
 	@Test
     public void deveEncontrarOsTresMaioresLances() {
-        Usuario joao = new Usuario("João");
+        Usuario joao = new Usuario("Joï¿½o");
         Usuario maria = new Usuario("Maria");
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
@@ -113,7 +113,7 @@ public class TesteDoAvaliador {
 
     @Test
     public void deveDevolverTodosLancesCasoNaoHajaNoMinimo3() {
-        Usuario joao = new Usuario("João");
+        Usuario joao = new Usuario("Joï¿½o");
         Usuario maria = new Usuario("Maria");
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
